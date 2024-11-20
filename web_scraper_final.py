@@ -11,7 +11,7 @@ import openai
 # Set your OpenAI API key
 apiKey=None
 with open("api.txt","r") as apiFile:
-    api_key=apiFile.read()
+    apikey=apiFile.read()
     openai.api_key = apiKey
 
 def generate_ingredients(dish_name):
